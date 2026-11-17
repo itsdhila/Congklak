@@ -1,3 +1,13 @@
+---
+title: Congklak
+emoji: 🌰
+colorFrom: yellow
+colorTo: red
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # Congklak
 
 Realtime two-player congklak with name entry and rankings. No dependencies.
@@ -6,5 +16,5 @@ Realtime two-player congklak with name entry and rankings. No dependencies.
     node --test         # tests
 
 Env: PORT (default 3000), DATA_DIR (default ./data, holds leaderboard.json).
-Deploy: see render.yaml (Render free web service). The free tier has no persistent disk,
-so rankings reset when the service restarts.
+The front matter above and the Dockerfile are for Hugging Face Spaces (free, no card).
+Free hosting has no persistent disk, so rankings reset when the service restarts.
